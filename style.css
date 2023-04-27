@@ -1,0 +1,237 @@
+
+body{
+  padding:1rem;
+  font-family: 'Futura PT', sans-serif;                                        
+}
+
+p, h2, h1{
+  margin:0;
+}
+
+p {
+  display: block;
+  font-size: 1.5em;
+}
+
+/****** link css ********/
+
+a {
+  text-decoration: none;
+  color:rgb(69, 128, 255);
+    margin:auto;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/****** customized font ********/
+
+.fw-500{
+  font-weight: 500;
+}
+
+.faded{
+  color: #7c807a;
+}
+
+/****** checkbox css ********/
+ 
+input[type="checkbox" i] {
+  background-color: initial;
+  cursor:pointer;
+  appearance: auto;
+  box-sizing: border-box;
+  padding: initial;
+  border: initial;
+  transform: scale(1.1);
+}
+
+input{
+  border:none;
+  font-size: large;
+}
+input:focus {
+  outline: none;
+}
+input::placeholder{
+  color:#cacaca
+}
+
+.p-1{
+  padding: 1rem
+}
+
+.mr-1{
+  margin-right:1rem;
+ }
+
+/****** header controls css ********/
+
+.controls{
+  margin:auto 0 auto 0;
+}
+
+.searchbar{
+  width:20%;
+  margin:9px;
+  padding: 10px 16px;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  color:#ffffff42;
+  box-shadow: 0px 2px 4px 0 rgb(72 46 46 / 12%);
+}
+
+.searchbar:hover{
+  box-shadow: 0px 4px 4px 0 rgb(72 46 46 / 12%);
+}
+
+/****** data list css ********/
+
+.data-body {
+  border: none;
+  margin:1.5rem;
+  margin-top:0;
+  display:block
+}
+
+.data-group{
+  margin-bottom:10px;
+  padding: 20px;
+  border-radius: 1rem;
+  background-color: #f0f3f3;
+}
+
+.drag-svg{
+  transform: translateY(7px);
+  cursor:pointer;
+}
+
+.flex-start{
+   display: flex;
+   justify-content:flex-start;
+ }
+
+ .flex-space-between{
+   display: flex;
+   justify-content:space-between;
+ }
+
+.content-container {
+  width: 40em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/************ BUTTONS **************/
+
+button {
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);  
+  margin: 5px;
+  padding: 8px 10px;
+  border-radius: 0.5rem;
+
+}
+
+button:hover {
+  box-shadow: 0 0 0 0;
+}
+
+.btn-blue{
+  background-color: rgb(227 250 255);
+  border: solid 1px rgb(131 205 255);
+  color: rgb(116 177 218);
+}
+
+.btn-red{
+  background-color: rgb(250, 231, 234);
+  border: solid 1px rgb(238, 38, 38);
+  color:rgb(238, 38, 38);
+}
+
+.tags{
+  background-color: rgb(231, 250, 244);
+  border: solid 1px rgb(74, 187, 89);
+  color:rgb(74, 180, 88);
+}
+
+/************ MODAL **************/
+
+.modal{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+}
+.modal_body {
+  max-width: 40%;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  right: auto;
+  top: 50%;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  border-radius: 0.5rem;
+}
+
+.modal-content{
+  padding: 1rem;
+  border:#000 3px dotted;
+}
+
+.modal_close {
+  display: block;
+  font-size: 30px;
+  color: #000;
+  cursor: pointer;
+  background-color: #f7f7f7;
+  border-radius: 1rem;
+  margin-left: 10px;
+  padding: 0 7px 0 7px;
+  height:40px;
+}
+
+.mb-2{
+  margin-bottom: 2rem;
+}
+
+/**** Modal Buttons ***/
+.btn {
+    margin: 10px;
+    padding: 8px 10px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color:white;
+    border:none;
+
+}
+
+.modal-btn-blue{
+    background-color: rgb(38, 158, 238);
+  }
+
+.modal-btn-red{
+  background-color: red;
+}
+
+.center{
+  margin: auto;
+  text-align: center;
+}
+
+  
+  
